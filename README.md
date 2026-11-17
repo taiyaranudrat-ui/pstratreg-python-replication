@@ -1,6 +1,6 @@
 # Python replication of *Non-existent outcomes in research on inequality*
 
-An independent Python replication of Lundberg & Cho, *"Non-existent outcomes in research on inequality: A causal approach"*. It re-implements the authors' R package [`pstratreg`](https://github.com/ilundberg/pstratreg) and the motherhood/fatherhood analysis from their replication package, then compares every published estimate.
+This is an independent Python replication of Lundberg & Cho, *"Non-existent outcomes in research on inequality: A causal approach"*. It re-implements the authors' R package [`pstratreg`](https://github.com/ilundberg/pstratreg) and the motherhood/fatherhood analysis from their replication package, then compares every published estimate.
 
 **Result: the paper replicates.** Every one of the 30 published point estimates is reproduced to within 0.004 log points. Standard errors and 95% intervals agree closely. Along the way we found one coding error in the subgroup figure and a few smaller issues ([below](#issues-found-in-the-original-code)).
 
